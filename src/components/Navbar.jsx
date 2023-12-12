@@ -4,10 +4,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 font-poppins">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          href="https://flowbite.com/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
-        >
+        <a className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={Logo} className="h-8" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-[#FFAA00] ">
             MY
@@ -51,7 +48,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href=""
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#124C5F] md:p-0 "
               >
                 Gallery
