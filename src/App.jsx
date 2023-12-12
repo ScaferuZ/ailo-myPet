@@ -4,6 +4,7 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Gallery from "./components/Gallery";
+import Finder from "./components/Finder";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Gallery />
+      <Finder />
     </>
   );
 };
